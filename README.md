@@ -14,10 +14,10 @@ The project consisted of tackling the AI task of continual learning, that is, ma
 
 The metric which brought the best results with the **experience replay** method was the random sampling metric.
 
-For our architecture, we used the **ResNet18** provided by **PyTorch** - which was trained only on our data - along with an **SGD optimizer** with a starting **learning rate of 0.01**, **cross-entropy loss**, **cosine annealing scheduler**, **training batch size of 64**, and **a number of epochs of minimum 20 and maximum 40**.
+For our architecture, we used the **ResNet18** provided by **PyTorch** - which was trained only on our data - along with an **SGD optimizer** with a **starting learning rate of 0.01**, **cross-entropy loss**, **cosine annealing scheduler**, **training batch size of 64**, and **a number of epochs of minimum 20 and maximum 40**.
 
 More info can be consulted in the "Poster.pdf" file.
 
 ### Contributors:
 - Alexandru Sasu (https://github.com/alexsasu/)
-- Cristian Paduraru
+- Cristian Paduraru (https://github.com/PaduraruCristian/)
